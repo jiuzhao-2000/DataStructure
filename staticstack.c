@@ -14,7 +14,6 @@ typedef struct Node
     int size;
 }NODE,*pNODE;
 
-
 _Bool init_Stack(pNODE p);//初始化
 void enter_Stack(pNODE p,ELEM val);//进栈
 _Bool leave_Stack(pNODE p,ELEM *val);//出栈
